@@ -26,5 +26,17 @@ export default class AppClass extends Component{
     return data;
   }
 
-  // code here
+  render(){
+    const obj=new AppClass();
+    let images=obj.imageData();
+
+    return(
+      <div className="imageContainer">
+        {images.map(image=>(
+          <img key={image.id} src={image.img}/>
+        ))}
+      </div>
+    )
+
+  }
 }

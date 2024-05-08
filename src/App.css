@@ -1,1 +1,13 @@
 /* add your styles here */
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imageContainer img {
+    width: 700px;
+    height: auto;
+    margin: 10px;
+  }
