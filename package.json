@@ -1,5 +1,5 @@
 {
-  "homepage": "https://surendherd.github.io/lab-react-jsx",
+  "homepage": "https://surendherd/lab-react-jsx",
   "name": "lab-react-jsx-boilerplate",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+     "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
