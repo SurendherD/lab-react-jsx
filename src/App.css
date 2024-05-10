@@ -1,5 +1,9 @@
 /* add your styles here */
 
+#title{
+  text-align: center;
+}
+
 .imageContainer {
     display: flex;
     flex-wrap: wrap;
