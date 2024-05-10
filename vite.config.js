@@ -3,10 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
   return {
-    build: {
-      outDir: 'build',
-    },
+    base:"/lab-react-jsx/",
     plugins: [react()],
-    base:"/lab-react-jsx/"
+    
   };
 });
